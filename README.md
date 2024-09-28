@@ -1,41 +1,7 @@
-# Website
+# Sintered Ceramic
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Uptime and availability guarantees for Ceramic Streams.  Compose external streams with confidance or provide streams as a service.  Built with Ceramic and Eigenlayer AVS
 
-### Installation
+## About
 
-```
-$ yarn
-```
-
-### Local Development
-
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Ceramic Network illustrates a vision of a mesh of decentralized event streams, composed together to form ecosystems of dapps.  However, Ceramic networks offers no incentivization layer regarding the lifecycle of a stream.  They may be composable, but if you choose to interweave external streams you are at mercy to their infrastructure limitations and personal prerogatives.  To materialize the dream of ceramic, sintered ceramic utilizes EigenLayer AVS to provide an incentiviation layer for stream providers to provide robust, available and active streams.  Enabling developers to compose with streams without inheriting the infrastructure or duplication cost of such a stream.
