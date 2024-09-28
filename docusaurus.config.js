@@ -23,7 +23,8 @@ const config = {
   organizationName: 'sintered-ceramic', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
+  trailingSlash: true,
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -87,7 +88,7 @@ const config = {
             label: 'Docs',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/Sintered-Ceramic',
             label: 'GitHub',
             position: 'right',
           },
@@ -132,7 +133,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Use how you want license  © ${new Date().getFullYear()} Sintered Ceramic.. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
